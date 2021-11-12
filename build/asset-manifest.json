@@ -1,28 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.8b2eaa47.chunk.css",
-    "main.js": "/static/js/main.c8fb8c43.chunk.js",
-    "main.js.map": "/static/js/main.c8fb8c43.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.58bb03df.js",
-    "runtime-main.js.map": "/static/js/runtime-main.58bb03df.js.map",
-    "static/js/2.6b4e3fbf.chunk.js": "/static/js/2.6b4e3fbf.chunk.js",
-    "static/js/2.6b4e3fbf.chunk.js.map": "/static/js/2.6b4e3fbf.chunk.js.map",
-    "static/js/3.31a992b6.chunk.js": "/static/js/3.31a992b6.chunk.js",
-    "static/js/3.31a992b6.chunk.js.map": "/static/js/3.31a992b6.chunk.js.map",
+    "main.css": "/static/css/main.432d2865.chunk.css",
+    "main.js": "/static/js/main.54c61483.chunk.js",
+    "main.js.map": "/static/js/main.54c61483.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c74e78c1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c74e78c1.js.map",
+    "static/js/2.15a31735.chunk.js": "/static/js/2.15a31735.chunk.js",
+    "static/js/2.15a31735.chunk.js.map": "/static/js/2.15a31735.chunk.js.map",
+    "static/js/3.b7c7ec9f.chunk.js": "/static/js/3.b7c7ec9f.chunk.js",
+    "static/js/3.b7c7ec9f.chunk.js.map": "/static/js/3.b7c7ec9f.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.8b2eaa47.chunk.css.map": "/static/css/main.8b2eaa47.chunk.css.map",
-    "static/js/2.6b4e3fbf.chunk.js.LICENSE.txt": "/static/js/2.6b4e3fbf.chunk.js.LICENSE.txt",
+    "static/css/main.432d2865.chunk.css.map": "/static/css/main.432d2865.chunk.css.map",
+    "static/js/2.15a31735.chunk.js.LICENSE.txt": "/static/js/2.15a31735.chunk.js.LICENSE.txt",
+    "static/media/2562631.800f9392.jpg": "/static/media/2562631.800f9392.jpg",
     "static/media/automotive-car-showroom-car-dealer-logo-vector-316952458.23122d19.jpg": "/static/media/automotive-car-showroom-car-dealer-logo-vector-316952458.23122d19.jpg",
     "static/media/Contact.css": "/static/media/banner.9058b40f.jpg",
     "static/media/banner1.d443ad9a.jpg": "/static/media/banner1.d443ad9a.jpg",
     "static/media/banner2.cd966be6.jpg": "/static/media/banner2.cd966be6.jpg",
     "static/media/banner3.cb9902a0.jpg": "/static/media/banner3.cb9902a0.jpg",
-    "static/media/error.0900a85c.png": "/static/media/error.0900a85c.png"
+    "static/media/error.0900a85c.png": "/static/media/error.0900a85c.png",
+    "static/media/evgeny-tchebotarev-aiwuLjLPFnU-unsplash.c85ec1af.jpg": "/static/media/evgeny-tchebotarev-aiwuLjLPFnU-unsplash.c85ec1af.jpg",
+    "static/media/mercedes_PNG80135.c9816fdf.png": "/static/media/mercedes_PNG80135.c9816fdf.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.58bb03df.js",
-    "static/js/2.6b4e3fbf.chunk.js",
-    "static/css/main.8b2eaa47.chunk.css",
-    "static/js/main.c8fb8c43.chunk.js"
+    "static/js/runtime-main.c74e78c1.js",
+    "static/js/2.15a31735.chunk.js",
+    "static/css/main.432d2865.chunk.css",
+    "static/js/main.54c61483.chunk.js"
   ]
 }
