@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Button } from 'react-bootstrap';
 import './Service.css'
 
 const Service = ({ service }) => {
@@ -15,7 +16,7 @@ const Service = ({ service }) => {
                     <p>Price: $ {price}</p>
                 </div>
                 <div className="card-footer">
-                    <Link to={`/services/${_id}`}><small><button className="text-white fw-bold  book-btn-color p-2 rounded">Purchase Here <i className="fas fa-credit-card"></i></button></small></Link>
+                    <Link to={`/services/${_id}`}><small><Button variant="danger" className="rounded-pill">Purchase Here <i className="fas fa-credit-card"></i></Button></small></Link>
                 </div>
             </div>
         </div>

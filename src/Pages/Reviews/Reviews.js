@@ -18,7 +18,7 @@ const Reviews = () => {
     return (
         <div>
             {reviews.length === 0 ?
-                <Spinner animation="border" variant="info" />
+                <Spinner animation="border" variant="danger" />
 
                 :
                 <div className="container mb-5">

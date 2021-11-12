@@ -38,7 +38,7 @@ const ManageAllServices = () => {
     return (
         <div>
             {services.length === 0 ?
-                <Spinner animation="border" variant="info" />
+                <Spinner animation="border" variant="danger" />
                 :
                 <div className="container mb-5">
                     <div className="row row-cols-1 row-cols-md-3 g-4">

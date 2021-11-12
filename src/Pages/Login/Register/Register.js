@@ -74,7 +74,7 @@ const Register = () => {
                             <Button variant="text">Already Registered? Please Login</Button>
                         </NavLink>
                     </form>}
-                    {isLoading && <Spinner animation="border" className="spinner-color" />}
+                    {isLoading && <Spinner animation="border" variant="danger" />}
                     {user?.email && <Alert severity="success">User Created successfully!</Alert>}
                     {authError && <Alert severity="error">{authError}</Alert>}
                 </Grid>

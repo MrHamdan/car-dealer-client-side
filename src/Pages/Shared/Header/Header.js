@@ -24,7 +24,7 @@ const Header = () => {
                         <Navbar.Collapse bg="light" id="basic-navbar-nav">
                             <Nav className="me-auto align-items-center">
                                 <Nav.Link as={HashLink} to="/home#home" ><button className=" link-color p-2 rounded-pill">Home</button></Nav.Link>
-                                <Nav.Link as={HashLink} to="/home#cars"><button className=" link-color p-2 rounded-pill">Cars Collections</button></Nav.Link>
+                                <Nav.Link as={HashLink} to="/home#cars"><button className=" link-color p-2 rounded-pill">Cars Collection</button></Nav.Link>
                                 <Nav.Link as={HashLink} to="/moreServices"><button className=" link-color p-2 rounded-pill">Explore</button></Nav.Link>
                                 <Nav.Link as={HashLink} to="/home#about" className="mx-2"><button className=" link-color p-2 rounded-pill">About</button></Nav.Link>
                                 <Nav.Link as={HashLink} to="/home#contact" className="mx-2"><button className=" link-color p-2 rounded-pill">Contact</button></Nav.Link>

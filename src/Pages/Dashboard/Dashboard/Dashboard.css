@@ -14,3 +14,7 @@
     color: #9D9DA0;
     font-size:30px;
 }
+
+.button-design:hover{
+    background-color: #FF4A52 !important;
+}

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
 import useAuth from "../../hooks/useAuth";
+import { Button } from 'react-bootstrap';
 
 const MyOrders = () => {
     const { user } = useAuth();
@@ -48,36 +49,34 @@ const MyOrders = () => {
                             <span className="visually-hidden">Loading...</span>
                         </div>
                     </div>)}
-                    <div className='table-responsive'>
-                        <table className="mx-auto table table-bordered table-hover align-middle table-dark table-striped">
-                            <thead>
-                                <tr>
-                                    <th scope="col">Name</th>
-                                    <th scope="col">Email</th>
-                                    <th scope="col">From</th>
-                                    <th scope="col">To</th>
-                                    <th scope="col">Date</th>
-                                    <th scope="col">Status</th>
-                                    <th scope="col">Handle</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-
-                                {orders.map(user => <tr key={user._id}>
-                                    <td>{user.name}</td>
-                                    <td>{user.email}</td>
-                                    <td>{user.from}</td>
-                                    <td>{user.to}</td>
-                                    <td>{user.date}</td>
-                                    <td>{user.status}</td>
-                                    <td>
-                                        <button onClick={() => handleDelete(user._id)} className="btn btn-danger my-1"><i className="fas fa-ban"></i> Cancle Booking</button></td>
-                                </tr>)}
-
-                            </tbody>
-
-                        </table>
+                    <div>
+                        <div className="row row-cols-1 row-cols-md-3 g-4">
+                            {
+                                orders.map(order => <div key={order._id}>
+                                    <div className="col pt-5">
+                                        <div className="card card-design h-100 rounded-3xl shadow-2xl">
+                                            <img src={order.img} className="card-img-top p-4" alt="..." />
+                                            <div className="card-body text-white-300 fw-bolder">
+                                                <h3 className="card-title">{order.title}</h3>
+                                                <h5>Location: {order.location}</h5>
+                                                <p className="card-text">{order.description}</p>
+                                                <p>Price: $ {order.price}</p>
+                                                <p>Name: {order.name}</p>
+                                                <p>Email: {order.email}</p>
+                                                <p>Phone: {order.number}</p>
+                                                <p>Address: {order.address}</p>
+                                                <h5>Status: {order.status}</h5>
+                                            </div>
+                                            <div className="card-footer">
+                                                <Button onClick={() => handleDelete(order._id)} className="btn btn-danger my-1"><i className="fas fa-ban"></i> Cancle Booking</Button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>)
+                            }
+                        </div>
                     </div>
+
 
                 </div>
             </div>

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Card, Col, Nav, Row, Spinner } from 'react-bootstrap';
+import { Card, Col, Nav, Row, Spinner, Button } from 'react-bootstrap';
 import { BrowserRouter as Router, Switch } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 import Banner from '../Banner/Banner';
@@ -10,6 +10,7 @@ import Contact from '../Contact/Contact';
 import Header from '../Shared/Header/Header';
 import Footer from '../Shared/Footer/Footer';
 import { HashLink } from 'react-router-hash-link';
+import image from '../../images/evgeny-tchebotarev-aiwuLjLPFnU-unsplash.jpg'
 
 
 const Home = () => {
@@ -29,13 +30,12 @@ const Home = () => {
             </div>
             <div className="container mt-5">
                 <div className="text-center">
-                    <h1 id="cars" className="text-design3">Most Visited & Popular Travel Locations</h1>
-                    <h5 className="text-black">There are so many amazing places around the globe to see, we couldn't possibly include them all in just one list. But, these breathtaking destinations are definitely worth bumping to the top of your travel bucket list–whether you're looking to relax on a beach, get off the grid or explore a city.</h5>
+                    <h1 id="cars" className="text-design3">Our Cars Collections And Special Deals </h1>
+                    <h5 className="text-black">We have so many different cars collections in our showroom that you are most welcome to come and visit us and watch our cars collections.We also have regular cars which is very reasonable in price that you can purchase.We provide best prices available for our customers because your happiness is our happiness.</h5>
                 </div>
                 {services.length === 0 ?
-                    <Spinner animation="border" variant="info" />
+                    <Spinner animation="border" variant="danger" />
                     :
-
                     <div className="row row-cols-1 row-cols-md-3 pb-5">
                         {/* Show services */}
                         {
@@ -47,31 +47,19 @@ const Home = () => {
                     </div>
 
                 }
-                <Nav.Link as={HashLink} to="/moreServices"><button className="text-white fw-bold  book-btn-color p-2 rounded">Explore More Cars</button></Nav.Link>
+                <Nav.Link as={HashLink} to="/moreServices"><Button variant="danger" className="rounded-pill">Explore More Cars <i className="fas fa-car"></i> </Button></Nav.Link>
                 <div>
 
                 </div>
             </div>
             <h1 id="about" className="py-5 text-design">About Us</h1>
-            <h5 className="container mb-5 text-black ">Our Definition of Travel World
-
-                When people leave their usual environment, they come into contact with new people, new sights, new experiences, and new ideas.
-
-                That exposure allows individuals to learn more about themselves and the world around them, creating greater internal and societal awareness.
-
-                For Travel Unity, travel experiences go beyond those involved airplane travel.
-
-                For us, travel includes:
-
-                local experiences, like going to a restaurant in a different neighborhood, visiting a cultural institution to see the exhibits or for an event, or joining a local tour
-                regional experiences, like day trips or camping
-                short and long-term relocation for school or work</h5>
+            <h5 className="container mb-5 text-black ">Cardealer.com is a leading digital marketplace and solutions provider for the automotive industry that connects car shoppers with sellers. Launched in 1998 and headquartered in Chicago, the Company empowers shoppers with the data, resources and digital tools needed to make informed buying decisions and seamlessly connect with automotive retailers. In a rapidly changing market, Cardealer.com enables dealerships and OEMs with innovative technical solutions and data-driven intelligence to better reach and influence ready-to-buy shoppers, increase inventory turn and gain market share. In 2018, Cardealer.com acquired Dealer Inspire®, an innovative technology company building solutions that future-proof dealerships with more efficient operations, a faster and easier car buying process, and connected digital experiences that sell and service more.</h5>
             <div className="about-us mt-2 grid md:grid-cols-2 sm:grid-cols-1 mb-5">
 
                 <Fade left>
 
                     <div>
-                        <img className=" rounded" src="https://images.unsplash.com/photo-1539635278303-d4002c07eae3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80" alt="" />
+                        <img className=" rounded" src={image} alt="" />
                     </div>
 
                 </Fade>
@@ -138,7 +126,7 @@ const Home = () => {
                 </div>
             </div>
             <div>
-                <h1 className="py-5 text-design">Travellers Reviews</h1>
+                <h1 className="py-5 text-design">Our Happy Client Reviews</h1>
                 <Reviews></Reviews>
             </div>
             <div>

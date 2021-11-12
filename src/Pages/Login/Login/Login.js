@@ -60,12 +60,12 @@ const Login = () => {
                                     <Button variant="text">New User? Please Register</Button>
                                 </NavLink>
                                 <br />
-                                {isLoading && <Spinner animation="border" className="spinner-color" />}
+                                {isLoading && <Spinner animation="border" variant="danger" />}
                                 {user?.email && <Alert severity="success">Login successfully!</Alert>}
                                 {authError && <Alert severity="error">{authError}</Alert>}
                             </form>
                             <p className="text-white">========================</p>
-                            <Button onClick={handleGoogleSignIn} sx={{ backgroundColor: '#C8A175' }} variant="contained">Google Sign In</Button>
+                            <Button onClick={handleGoogleSignIn} variant="contained">Google Sign In</Button>
                         </Grid>
                     </Grid>
                 </Container>

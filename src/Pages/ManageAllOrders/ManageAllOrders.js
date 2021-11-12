@@ -1,5 +1,6 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
+import { Button } from 'react-bootstrap';
 
 const ManageAllOrders = () => {
 
@@ -40,10 +41,10 @@ const ManageAllOrders = () => {
 
     const handleUpdate = id => {
         const updatedStatus = {
-            status: 'approved'
+            status: 'Shipped'
         }
         axios.put(`https://hidden-sands-54353.herokuapp.com/orders/${id}`, {
-            status: 'approved'
+            status: 'Shipped'
         })
             .then(res => {
                 if (res.data.acknowledged) {
@@ -59,42 +60,43 @@ const ManageAllOrders = () => {
             <div>
                 <div>
                     <div>
-                        <h1 className="p-4">Manage All Bookings</h1>
+                        <h1 className="p-4 text-design">Manage All Bookings</h1>
                         {!orders && (<div className="text-center">
                             <div className="spinner-grow text-danger text-center" role="status">
                                 <span className="visually-hidden">Loading...</span>
                             </div>
                         </div>)}
-                        <div className='table-responsive'>
-                            <table className="mx-auto table table-bordered table-hover align-middle table-dark table-striped">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">Name</th>
-                                        <th scope="col">Email</th>
-                                        <th scope="col">From</th>
-                                        <th scope="col">To</th>
-                                        <th scope="col">Date</th>
-                                        <th scope="col">Status</th>
-                                        <th scope="col">Handle</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
 
-                                    {orders.map(order => <tr key={order._id}>
-                                        <td>{order.name}</td>
-                                        <td>{order.email}</td>
-                                        <td>{order.from}</td>
-                                        <td>{order.to}</td>
-                                        <td>{order.date}</td>
-                                        <td>{order.status}</td>
-                                        <td><button onClick={() => handleUpdate(order._id)} className="btn btn-success m-1"><i className="far fa-thumbs-up"></i> Update</button>
-                                            <button onClick={() => handleDelete(order._id)} className="btn btn-danger my-1"><i className="fas fa-eraser"></i> Delete</button></td>
-                                    </tr>)}
 
-                                </tbody>
-
-                            </table>
+                        <div>
+                            <div className="row row-cols-1 row-cols-md-3 g-4">
+                                {
+                                    orders.map(order => <div key={order._id}>
+                                        <div className="col pt-5">
+                                            <div className="card card-design h-100 rounded-3xl shadow-2xl">
+                                                <img src={order.img} className="card-img-top p-4" alt="..." />
+                                                <div className="card-body text-white-300 fw-bolder">
+                                                    <h3 className="card-title">{order.title}</h3>
+                                                    <h5>Location: {order.location}</h5>
+                                                    <p className="card-text">{order.description}</p>
+                                                    <p>Price: $ {order.price}</p>
+                                                    <p>Name: {order.name}</p>
+                                                    <p>Email: {order.email}</p>
+                                                    <p>Phone: {order.number}</p>
+                                                    <p>Address: {order.address}</p>
+                                                    <h5>Status: {order.status}</h5>
+                                                </div>
+                                                <div className="card-footer">
+                                                    <button onClick={() => handleUpdate(order._id)} className="btn btn-success m-1"><i className="far fa-thumbs-up"></i> Update</button>
+                                                    <button onClick={() => handleDelete(order._id)} className="btn btn-danger my-1"><i className="fas fa-eraser"></i> Delete</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>)
+                                }
+                            </div>
                         </div>
+
 
                     </div>
                 </div>

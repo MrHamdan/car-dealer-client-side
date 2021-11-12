@@ -32,11 +32,12 @@ const Review = () => {
                     {...register("name")}
                     placeholder="name"
                     className="p-2 m-2 w-100"
+                    readOnly
                 />
                 <br />
                 <input
                     {...register("description")}
-                    placeholder="Description"
+                    placeholder="Review Here"
                     className="p-2 m-2 w-100"
                 />
                 <br />

@@ -32,4 +32,5 @@
 .link-color:hover{
     color:white;
     background-color:#FF4A52;
+    transition: 0.5s;
 }

@@ -28,13 +28,13 @@ const AddANewService = () => {
                 <h1 className="py-4 text-design">Add A New CAR</h1>
                 <input
                     {...register("title")}
-                    placeholder="title"
+                    placeholder="Title"
                     className="p-2 m-2 w-100"
                 />
                 <br />
                 <input
                     {...register("location")}
-                    placeholder="location"
+                    placeholder="Location"
                     className="p-2 m-2 w-100"
                 />
                 <br />
@@ -46,7 +46,7 @@ const AddANewService = () => {
                 <br />
                 <input
                     {...register("price")}
-                    placeholder="price"
+                    placeholder="Price"
                     className="p-2 m-2 w-100"
                 />
                 <br />

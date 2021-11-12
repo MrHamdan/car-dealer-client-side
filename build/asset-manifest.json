@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.afc5a125.chunk.css",
-    "main.js": "/static/js/main.70c9169c.chunk.js",
-    "main.js.map": "/static/js/main.70c9169c.chunk.js.map",
+    "main.css": "/static/css/main.8b2eaa47.chunk.css",
+    "main.js": "/static/js/main.c8fb8c43.chunk.js",
+    "main.js.map": "/static/js/main.c8fb8c43.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.58bb03df.js",
     "runtime-main.js.map": "/static/js/runtime-main.58bb03df.js.map",
     "static/js/2.6b4e3fbf.chunk.js": "/static/js/2.6b4e3fbf.chunk.js",
@@ -10,19 +10,19 @@
     "static/js/3.31a992b6.chunk.js": "/static/js/3.31a992b6.chunk.js",
     "static/js/3.31a992b6.chunk.js.map": "/static/js/3.31a992b6.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.afc5a125.chunk.css.map": "/static/css/main.afc5a125.chunk.css.map",
+    "static/css/main.8b2eaa47.chunk.css.map": "/static/css/main.8b2eaa47.chunk.css.map",
     "static/js/2.6b4e3fbf.chunk.js.LICENSE.txt": "/static/js/2.6b4e3fbf.chunk.js.LICENSE.txt",
+    "static/media/automotive-car-showroom-car-dealer-logo-vector-316952458.23122d19.jpg": "/static/media/automotive-car-showroom-car-dealer-logo-vector-316952458.23122d19.jpg",
     "static/media/Contact.css": "/static/media/banner.9058b40f.jpg",
     "static/media/banner1.d443ad9a.jpg": "/static/media/banner1.d443ad9a.jpg",
     "static/media/banner2.cd966be6.jpg": "/static/media/banner2.cd966be6.jpg",
     "static/media/banner3.cb9902a0.jpg": "/static/media/banner3.cb9902a0.jpg",
-    "static/media/error.0900a85c.png": "/static/media/error.0900a85c.png",
-    "static/media/logo.01ee77b6.png": "/static/media/logo.01ee77b6.png"
+    "static/media/error.0900a85c.png": "/static/media/error.0900a85c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.58bb03df.js",
     "static/js/2.6b4e3fbf.chunk.js",
-    "static/css/main.afc5a125.chunk.css",
-    "static/js/main.70c9169c.chunk.js"
+    "static/css/main.8b2eaa47.chunk.css",
+    "static/js/main.c8fb8c43.chunk.js"
   ]
 }
