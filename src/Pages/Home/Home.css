@@ -1,0 +1,22 @@
+.text-design2{
+    font-size: 30px;
+    color:#997143;
+    font-weight: bold;
+}
+.text-design3{
+    font-size: 50px;
+    color:#997143;
+    font-weight: bold;
+}
+
+
+
+
+
+/* why choose us */
+.about-us {
+    background-image: url("https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Simple-Blue-White-Background-Image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }

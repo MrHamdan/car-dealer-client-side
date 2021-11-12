@@ -1,0 +1,16 @@
+.card{
+    border-radius: 20px;
+    background-color: #ffffffa1;
+}
+
+.book-btn-color{
+    color:white;
+    background-color:#8d673c;
+}
+
+
+.card-design:hover{
+    transform: scale(1.05);
+    transition: ease-in   0.5s;
+    transition: ease-out  0.5s;
+}
