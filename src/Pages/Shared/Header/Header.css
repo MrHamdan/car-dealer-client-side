@@ -4,16 +4,16 @@
 .navbar{
     margin: 0;
     padding: 0;
-    background-color:black;
+
 }
 
 .car-text{
-    color:#C8A175;
+    color:#FF4A52;
     font-size:20px;
     font-weight:bold;
 }
 .dealer-text{
-    color:#BEC3C1;
+    color:#9D9DA0;
     font-size:20px;
     font-weight:bold;
 }
@@ -21,7 +21,7 @@
 
 .login-btn-color{
     color:white;
-    background-color:#997143;
+    background-color:#FF4A52;
 }
 
 .logout-btn-color{
@@ -31,5 +31,5 @@
 
 .link-color:hover{
     color:white;
-    background-color:#997143;
+    background-color:#FF4A52;
 }

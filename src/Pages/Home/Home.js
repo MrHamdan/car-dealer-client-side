@@ -30,7 +30,7 @@ const Home = () => {
             <div className="container mt-5">
                 <div className="text-center">
                     <h1 id="cars" className="text-design3">Most Visited & Popular Travel Locations</h1>
-                    <h5 className="text-gray-400">There are so many amazing places around the globe to see, we couldn't possibly include them all in just one list. But, these breathtaking destinations are definitely worth bumping to the top of your travel bucket list–whether you're looking to relax on a beach, get off the grid or explore a city.</h5>
+                    <h5 className="text-black">There are so many amazing places around the globe to see, we couldn't possibly include them all in just one list. But, these breathtaking destinations are definitely worth bumping to the top of your travel bucket list–whether you're looking to relax on a beach, get off the grid or explore a city.</h5>
                 </div>
                 {services.length === 0 ?
                     <Spinner animation="border" variant="info" />
@@ -53,7 +53,7 @@ const Home = () => {
                 </div>
             </div>
             <h1 id="about" className="py-5 text-design">About Us</h1>
-            <h5 className="container mb-5 text-gray-400 ">Our Definition of Travel World
+            <h5 className="container mb-5 text-black ">Our Definition of Travel World
 
                 When people leave their usual environment, they come into contact with new people, new sights, new experiences, and new ideas.
 
@@ -143,7 +143,7 @@ const Home = () => {
             </div>
             <div>
                 <div id="contact" className="py-5"><h1 className="text-design">Contact</h1></div>
-                <h5 className="mb-5 text-gray-400">We’d love to hear from like-minded individuals and organizations who believe in making the world of travel welcoming to people of all background and abilities.</h5>
+                <h5 className="mb-5 text-black">We’d love to hear from like-minded individuals and organizations who believe in making the world of travel welcoming to people of all background and abilities.</h5>
                 <Contact></Contact>
             </div>
             <Footer></Footer>

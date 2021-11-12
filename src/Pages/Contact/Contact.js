@@ -41,7 +41,7 @@ const Contact = () => {
                 </div>
 
                 <div className="container-fluid">
-                    <div className=" row  align-items-center bg-white py-4">
+                    <div className=" row  align-items-center  py-4">
                         <div className="row col-lg-4 col-md-4 col-sm-12  justify-content-center text-center mx-auto">
                             <h1 className="display-2 icon-color">{mailIcon}</h1>
                             <p className="fs-5">travelworld@gmail.com</p>
@@ -61,10 +61,10 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <div className="bg-white p-2">
+                <div className=" p-2">
                     <h1 className="fw-bold text-center py-5">Our Social Platforms</h1>
                     <div
-                        className="bg-white col-lg-6 d-flex justify-content-evenly
+                        className=" col-lg-6 d-flex justify-content-evenly
                 mx-auto p-2"
                     >
                         <span>
@@ -84,7 +84,7 @@ const Contact = () => {
                         </span>
                     </div>
                 </div>
-                <div className="bg-white p-2 text-left">
+                <div className=" p-2 text-left">
                     <div className="mb-3 col-xl-8 col-lg-8 col-md-6 col-12 mx-auto">
                         <label htmlFor="exampleFormControlInput1" className="form-label fw-bold">
                             Name

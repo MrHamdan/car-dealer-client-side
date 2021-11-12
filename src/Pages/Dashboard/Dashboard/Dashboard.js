@@ -28,7 +28,7 @@ import Review from '../../Review/Review';
 import DashboardHome from '../DashboardHome/DashboardHome';
 import './Dashboard.css'
 
-const drawerWidth = 200;
+const drawerWidth = 240;
 
 function Dashboard(props) {
     const { window } = props;
@@ -41,7 +41,7 @@ function Dashboard(props) {
 
     const drawer = (
         <div>
-            <Toolbar sx={{ backgroundColor: '#212529' }}><h1 className="text-design2">User Options</h1></Toolbar>
+            <Toolbar sx={{ backgroundColor: '#212529' }}><span className="text-color1">Users</span><span className="text-color2">Options</span></Toolbar>
             <Divider />
             <Link to={`${url}`}><Button sx={{ backgroundColor: '#212529' }} className="mb-2 mt-3 " variant="contained">Dashboard</Button></Link><br />
             <Link to={`${url}/pay`}><Button sx={{ backgroundColor: '#212529' }} className="mb-2" variant="contained">Pay</Button></Link><br />
@@ -50,7 +50,7 @@ function Dashboard(props) {
             <Link to="/home" ><Button sx={{ backgroundColor: '#212529' }} className="mb-2" variant="contained">Home</Button></Link><br />
             <Button onClick={logout} sx={{ backgroundColor: '#212529' }} variant="contained">Logout</Button>
             {admin && <Box>
-                <Toolbar sx={{ backgroundColor: '#212529', mt: 3, py: 1 }}><h1 className="text-design2">Admin Options</h1></Toolbar>
+                <Toolbar sx={{ backgroundColor: '#212529', mt: 3, py: 1 }}><span className="text-color1">Admin</span> <span className="text-color2">Options</span></Toolbar>
                 <Divider />
                 <Link to={`${url}/manageallorders`}><Button sx={{ backgroundColor: '#212529' }} className="mb-2 mt-3" variant="contained">Manage All Orders</Button></Link>
 

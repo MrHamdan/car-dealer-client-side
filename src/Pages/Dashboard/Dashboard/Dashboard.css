@@ -5,3 +5,12 @@
 .link-color2:hover{
     background-color: #997143;
 }
+
+.text-color1{
+    color: #FF4A52;
+    font-size:30px;
+}
+.text-color2{
+    color: #9D9DA0;
+    font-size:30px;
+}

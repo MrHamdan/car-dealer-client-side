@@ -1,5 +1,5 @@
 import React from 'react';
-import icon from '../../../images/logo.png'
+import icon from '../../../images/automotive-car-showroom-car-dealer-logo-vector-316952458.jpg'
 import './Footer.css'
 import {
     faYoutube,
