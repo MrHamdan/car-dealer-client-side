@@ -49,7 +49,10 @@ const Home = () => {
                 }
                 <Nav.Link as={HashLink} to="/moreServices"><Button variant="danger" className="rounded-pill">Explore More Cars <i className="fas fa-car"></i> </Button></Nav.Link>
                 <div>
-
+                    <div>
+                        <h1 className="py-5 text-design">Our Happy Client Reviews</h1>
+                        <Reviews></Reviews>
+                    </div>
                 </div>
             </div>
             <h1 id="about" className="py-5 text-design">About Us</h1>
@@ -122,10 +125,6 @@ const Home = () => {
 
 
                 </div>
-            </div>
-            <div>
-                <h1 className="py-5 text-design">Our Happy Client Reviews</h1>
-                <Reviews></Reviews>
             </div>
             <div>
                 <div id="contact" className="py-5"><h1 className="text-design">Contact</h1></div>

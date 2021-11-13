@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.432d2865.chunk.css",
-    "main.js": "/static/js/main.1de7fab8.chunk.js",
-    "main.js.map": "/static/js/main.1de7fab8.chunk.js.map",
+    "main.css": "/static/css/main.3b92bb91.chunk.css",
+    "main.js": "/static/js/main.8975910c.chunk.js",
+    "main.js.map": "/static/js/main.8975910c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a1c9faec.js",
     "runtime-main.js.map": "/static/js/runtime-main.a1c9faec.js.map",
     "static/js/2.944a11cf.chunk.js": "/static/js/2.944a11cf.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.791a7b1b.chunk.js": "/static/js/3.791a7b1b.chunk.js",
     "static/js/3.791a7b1b.chunk.js.map": "/static/js/3.791a7b1b.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.432d2865.chunk.css.map": "/static/css/main.432d2865.chunk.css.map",
+    "static/css/main.3b92bb91.chunk.css.map": "/static/css/main.3b92bb91.chunk.css.map",
     "static/js/2.944a11cf.chunk.js.LICENSE.txt": "/static/js/2.944a11cf.chunk.js.LICENSE.txt",
     "static/media/2562631.800f9392.jpg": "/static/media/2562631.800f9392.jpg",
     "static/media/automotive-car-showroom-car-dealer-logo-vector-316952458.23122d19.jpg": "/static/media/automotive-car-showroom-car-dealer-logo-vector-316952458.23122d19.jpg",
@@ -18,14 +18,14 @@
     "static/media/banner1.d443ad9a.jpg": "/static/media/banner1.d443ad9a.jpg",
     "static/media/banner2.cd966be6.jpg": "/static/media/banner2.cd966be6.jpg",
     "static/media/banner3.cb9902a0.jpg": "/static/media/banner3.cb9902a0.jpg",
+    "static/media/david-leveque-esvWH-owWug-unsplash.19e20114.jpg": "/static/media/david-leveque-esvWH-owWug-unsplash.19e20114.jpg",
     "static/media/error.0900a85c.png": "/static/media/error.0900a85c.png",
-    "static/media/evgeny-tchebotarev-aiwuLjLPFnU-unsplash.c85ec1af.jpg": "/static/media/evgeny-tchebotarev-aiwuLjLPFnU-unsplash.c85ec1af.jpg",
     "static/media/mercedes_PNG80135.c9816fdf.png": "/static/media/mercedes_PNG80135.c9816fdf.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a1c9faec.js",
     "static/js/2.944a11cf.chunk.js",
-    "static/css/main.432d2865.chunk.css",
-    "static/js/main.1de7fab8.chunk.js"
+    "static/css/main.3b92bb91.chunk.css",
+    "static/js/main.8975910c.chunk.js"
   ]
 }
