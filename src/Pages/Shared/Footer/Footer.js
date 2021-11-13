@@ -23,12 +23,16 @@ const Footer = () => {
                 <div className="row gy-4 gx-5 d-flex align-items-center mx-5">
                     <div className="col-lg-4 col-md-6">
                         <img className="d-flex mx-auto mb-3" src={icon} alt="" />
-                        <p className=" text-muted">Travel World</p>
+                        <div>
+                            <span className="car-text mx-1 italic">CAR</span><span className="dealer-text italic">DEALER</span>
+                        </div>
                         <p className="small text-muted mb-0">Copyright &copy; 2021 All Rights Reserved. <a className="text-primary text-danger" href="#">Hamdan</a></p>
                     </div>
                     <div className="col-lg-4 col-md-6 ms-auto">
-                        <h5 className="text-black mb-3">Travel World</h5>
-                        <p className="small text-muted">World Best Travel Website Around The World</p>
+                        <div>
+                            <span className="car-text mx-1 italic">CAR</span><span className="dealer-text italic">DEALER</span>
+                        </div>
+                        <p className="small text-muted">World Best Car Dealer Website Around The World</p>
                         <div
                             className=" col-lg-6 d-flex justify-content-evenly
                 mx-auto p-2"

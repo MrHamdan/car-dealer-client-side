@@ -35,7 +35,7 @@ const Contact = () => {
                     <div className="text-white contact-banner text-center">
                         <div className="">
                             <h1 className="display-3 fw-bold">Contact Us Now</h1>
-                            <h3 className="fw-bold">Get in touch with us!</h3>
+                            <h3 className="fw-bold">Stay Connected With Us !</h3>
                         </div>
                     </div>
                 </div>
@@ -44,7 +44,7 @@ const Contact = () => {
                     <div className=" row  align-items-center  py-4">
                         <div className="row col-lg-4 col-md-4 col-sm-12  justify-content-center text-center mx-auto">
                             <h1 className="display-2 icon-color">{mailIcon}</h1>
-                            <p className="fs-5">travelworld@gmail.com</p>
+                            <p className="fs-5">cardealer@gmail.com</p>
                         </div>
                         <div className="row col-lg-4 col-md-4 col-sm-12 justify-content-center text-center mx-auto">
                             <h1 className="display-2 icon-color1">{locationIcon}</h1>
@@ -62,7 +62,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className=" p-2">
-                    <h1 className="fw-bold text-center py-5">Our Social Platforms</h1>
+                    <h1 className="text-design fw-bold text-center py-5">Our Social Platforms</h1>
                     <div
                         className=" col-lg-6 d-flex justify-content-evenly
                 mx-auto p-2"
@@ -121,7 +121,7 @@ const Contact = () => {
                         ></textarea>
                     </div>
                     <div className="mb-3 col-xl-8 col-lg-8 col-md-6 col-12 mx-auto">
-                        <button className="btn btn-success fw-bold">Submit</button>
+                        <button className="btn btn-danger fw-bold">Submit</button>
                     </div>
                 </div>
             </>

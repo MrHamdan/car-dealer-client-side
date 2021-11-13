@@ -19,7 +19,7 @@ const MyOrders = () => {
 
 
     const handleDelete = (id) => {
-        const proceed = window.confirm('Cancel Your Booking ! Are you sure?');
+        const proceed = window.confirm('Cancel Your Order ! Are you sure?');
         if (proceed) {
             fetch(`https://hidden-sands-54353.herokuapp.com/deleteOrders/${id}`, {
                 method: "DELETE",
@@ -28,7 +28,7 @@ const MyOrders = () => {
                 .then((res) => res.json())
                 .then((data) => {
                     if (data.deletedCount) {
-                        alert('Your Booking Has Been Cancled')
+                        alert('Your Order Has Been Cancled')
                         setDelete(!isDelete);
                     } else {
                         setDelete(false);
@@ -43,7 +43,7 @@ const MyOrders = () => {
         <div>
             <div>
                 <div>
-                    <h1 className="p-4 text-design">My Bookings</h1>
+                    <h1 className="p-4 text-design">My Orders</h1>
                     {!orders && (<div className="text-center">
                         <div className="spinner-grow text-danger text-center" role="status">
                             <span className="visually-hidden">Loading...</span>
@@ -68,7 +68,7 @@ const MyOrders = () => {
                                                 <h5>Status: {order.status}</h5>
                                             </div>
                                             <div className="card-footer">
-                                                <Button onClick={() => handleDelete(order._id)} className="btn btn-danger my-1"><i className="fas fa-ban"></i> Cancle Booking</Button>
+                                                <Button onClick={() => handleDelete(order._id)} className="btn btn-danger my-1"><i className="fas fa-ban"></i> Cancle Order</Button>
                                             </div>
                                         </div>
                                     </div>

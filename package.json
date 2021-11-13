@@ -33,6 +33,7 @@
     "react-scripts": "4.0.3",
     "react-slick": "^0.28.1",
     "react-spinners": "^0.11.0",
+    "react-stars": "^2.2.5",
     "rerousel": "^0.1.9",
     "styled-components": "^5.3.3",
     "tailwindcss": "^2.2.17",

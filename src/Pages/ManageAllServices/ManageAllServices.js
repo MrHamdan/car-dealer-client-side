@@ -37,6 +37,7 @@ const ManageAllServices = () => {
 
     return (
         <div>
+            <h1 className="text-design">Manage All Services</h1>
             {services.length === 0 ?
                 <Spinner animation="border" variant="danger" />
                 :

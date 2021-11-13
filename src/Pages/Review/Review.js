@@ -26,7 +26,7 @@ const Review = () => {
     return (
         <div className="container border-4 rounded-3xl">
             <form onSubmit={handleSubmit(onSubmit)}>
-                <h1 className="py-4 text-design">Add Your Review</h1>
+                <h1 className="py-4 text-design">Add A Review</h1>
                 <input
                     value={user?.displayName}
                     {...register("name")}

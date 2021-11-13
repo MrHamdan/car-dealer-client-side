@@ -30,12 +30,14 @@ const Reviews = () => {
                                 <div className="col pt-5">
                                     <div className="card card-design h-100 rounded-3xl shadow-2xl">
                                         <div className="card-body text-white-300 fw-bolder">
-                                            <h3 className="card-title">{review.name}</h3>
-                                            <h5>{review.description}</h5>
+                                            <h4 className="card-title">{review.name}</h4>
+                                            <p>{review.description}</p>
+                                            <span>Ratings:</span>
                                             <Rating
+                                                className="fs-4"
                                                 initialRating={review.rating}
-                                                emptySymbol="far fa-star fa-2x"
-                                                fullSymbol="fas fa-star fa-2x"
+                                                emptySymbol="far fa-star "
+                                                fullSymbol="fas fa-star "
                                                 readonly></Rating>
                                             <br />
                                         </div>
