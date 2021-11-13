@@ -44,24 +44,28 @@ function Dashboard(props) {
             {!admin && <Box>
                 <Toolbar sx={{ backgroundColor: '#212529' }}><span className="text-color1">Users</span><span className="text-color2">Options</span></Toolbar>
                 <Divider />
-                <Link to={`${url}`}><Button sx={{ backgroundColor: '#212529' }} className="mb-2 mt-3 button-design " variant="contained">Dashboard</Button></Link><br />
+                <Link to="/home" ><Button sx={{ backgroundColor: '#212529' }} className="mt-2 mb-2 button-design" variant="contained">Home</Button></Link><br />
+
+                <Link to={`${url}`}><Button sx={{ backgroundColor: '#212529' }} className="mb-2 button-design " variant="contained">Dashboard</Button></Link><br />
                 <Link to={`${url}/pay`}><Button sx={{ backgroundColor: '#212529' }} className="mb-2 button-design" variant="contained">Pay</Button></Link><br />
                 <Link to={`${url}/myorders`}><Button sx={{ backgroundColor: '#212529' }} className="mb-2 button-design" variant="contained">My Orders</Button></Link><br />
                 <Link to={`${url}/review`}><Button sx={{ backgroundColor: '#212529' }} className="mb-2 button-design" variant="contained">Add A Review</Button></Link><br />
-                <Link to="/home" ><Button sx={{ backgroundColor: '#212529' }} className="mb-2 button-design" variant="contained">Home</Button></Link><br />
+
                 <Button className="button-design" onClick={logout} sx={{ backgroundColor: '#212529' }} variant="contained">Logout</Button>
             </Box>}
             {admin && <Box>
                 <Toolbar sx={{ backgroundColor: '#212529', py: 1 }}><span className="text-color1">Admin</span> <span className="text-color2">Options</span></Toolbar>
                 <Divider />
-                <Link to={`${url}/manageallorders`}><Button sx={{ backgroundColor: '#212529' }} className="mb-2 mt-3 button-design" variant="contained">Manage All Orders</Button></Link>
+                <Link to="/home" ><Button sx={{ backgroundColor: '#212529' }} className="mt-2 mb-2 button-design" variant="contained">Home</Button></Link><br />
+
+                <Link to={`${url}/manageallorders`}><Button sx={{ backgroundColor: '#212529' }} className="mb-2  button-design" variant="contained">Manage All Orders</Button></Link>
 
                 <Link to={`${url}/addanewservice`}><Button sx={{ backgroundColor: '#212529' }} className="mb-2 button-design" variant="contained">Add A New Car</Button></Link>
 
                 <Link to={`${url}/makeAdmin`}><Button sx={{ backgroundColor: '#212529' }} className="mb-2 button-design" variant="contained">Make Admin</Button></Link>
 
                 <Link to={`${url}/manageallservices`}><Button sx={{ backgroundColor: '#212529' }} className="mb-2 button-design" variant="contained">Manage All Services</Button></Link>
-                <Link to="/home" ><Button sx={{ backgroundColor: '#212529' }} className="mb-2 button-design" variant="contained">Home</Button></Link><br />
+
                 <Button className="button-design" onClick={logout} sx={{ backgroundColor: '#212529' }} variant="contained">Logout</Button>
 
             </Box>}

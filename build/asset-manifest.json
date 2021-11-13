@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.3b92bb91.chunk.css",
-    "main.js": "/static/js/main.9d777a02.chunk.js",
-    "main.js.map": "/static/js/main.9d777a02.chunk.js.map",
+    "main.js": "/static/js/main.137e78a5.chunk.js",
+    "main.js.map": "/static/js/main.137e78a5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a1c9faec.js",
     "runtime-main.js.map": "/static/js/runtime-main.a1c9faec.js.map",
     "static/js/2.944a11cf.chunk.js": "/static/js/2.944a11cf.chunk.js",
@@ -20,12 +20,14 @@
     "static/media/banner3.cb9902a0.jpg": "/static/media/banner3.cb9902a0.jpg",
     "static/media/david-leveque-esvWH-owWug-unsplash.19e20114.jpg": "/static/media/david-leveque-esvWH-owWug-unsplash.19e20114.jpg",
     "static/media/error.0900a85c.png": "/static/media/error.0900a85c.png",
-    "static/media/mercedes_PNG80135.c9816fdf.png": "/static/media/mercedes_PNG80135.c9816fdf.png"
+    "static/media/mercedes_PNG80135.c9816fdf.png": "/static/media/mercedes_PNG80135.c9816fdf.png",
+    "static/media/undraw_electric_car_b7hl (2).806f4b39.png": "/static/media/undraw_electric_car_b7hl (2).806f4b39.png",
+    "static/media/undraw_off_road_9oae.a5c5a4b2.png": "/static/media/undraw_off_road_9oae.a5c5a4b2.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a1c9faec.js",
     "static/js/2.944a11cf.chunk.js",
     "static/css/main.3b92bb91.chunk.css",
-    "static/js/main.9d777a02.chunk.js"
+    "static/js/main.137e78a5.chunk.js"
   ]
 }
