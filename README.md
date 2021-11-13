@@ -1,4 +1,4 @@
-# Car Dealer [Live Site](https://car-dealer-b52bf.web.app/)
+# Car Dealer [Live Site Link](https://car-dealer-b52bf.web.app/)
 
 ## About App
  * This website is based on Car Dealing website where user can buy their dream cars and have a good memory with us.
