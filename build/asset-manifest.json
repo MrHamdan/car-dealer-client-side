@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.3b92bb91.chunk.css",
-    "main.js": "/static/js/main.406bfb81.chunk.js",
-    "main.js.map": "/static/js/main.406bfb81.chunk.js.map",
+    "main.js": "/static/js/main.a363b3c3.chunk.js",
+    "main.js.map": "/static/js/main.a363b3c3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a1c9faec.js",
     "runtime-main.js.map": "/static/js/runtime-main.a1c9faec.js.map",
-    "static/js/2.944a11cf.chunk.js": "/static/js/2.944a11cf.chunk.js",
-    "static/js/2.944a11cf.chunk.js.map": "/static/js/2.944a11cf.chunk.js.map",
+    "static/js/2.69632a5e.chunk.js": "/static/js/2.69632a5e.chunk.js",
+    "static/js/2.69632a5e.chunk.js.map": "/static/js/2.69632a5e.chunk.js.map",
     "static/js/3.791a7b1b.chunk.js": "/static/js/3.791a7b1b.chunk.js",
     "static/js/3.791a7b1b.chunk.js.map": "/static/js/3.791a7b1b.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.3b92bb91.chunk.css.map": "/static/css/main.3b92bb91.chunk.css.map",
-    "static/js/2.944a11cf.chunk.js.LICENSE.txt": "/static/js/2.944a11cf.chunk.js.LICENSE.txt",
+    "static/js/2.69632a5e.chunk.js.LICENSE.txt": "/static/js/2.69632a5e.chunk.js.LICENSE.txt",
     "static/media/2562631.800f9392.jpg": "/static/media/2562631.800f9392.jpg",
     "static/media/automotive-car-showroom-car-dealer-logo-vector-316952458.23122d19.jpg": "/static/media/automotive-car-showroom-car-dealer-logo-vector-316952458.23122d19.jpg",
     "static/media/Contact.css": "/static/media/banner.9058b40f.jpg",
@@ -26,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a1c9faec.js",
-    "static/js/2.944a11cf.chunk.js",
+    "static/js/2.69632a5e.chunk.js",
     "static/css/main.3b92bb91.chunk.css",
-    "static/js/main.406bfb81.chunk.js"
+    "static/js/main.a363b3c3.chunk.js"
   ]
 }

@@ -108,7 +108,7 @@ const Home = () => {
                             </Col>
                             <Col>
                                 <Card className="border-0">
-                                    <img className="w-50 mx-auto rounded-3xl pt-3" src="https://www.carscoops.com/wp-content/uploads/2018/09/9d78414f-tesla-product-lineup.jpg" alt="" />
+                                    <img className="w-50 mx-auto rounded-3xl pt-3" src="https://cdn.motor1.com/images/mgl/X4PXv/s1/cheap-car-shipping.jpg" alt="" />
                                     <Card.Body>
                                         <Card.Title>Fastest Delivery</Card.Title>
                                         <Card.Text>
