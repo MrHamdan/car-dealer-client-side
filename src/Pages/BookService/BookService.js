@@ -52,7 +52,7 @@ const BookService = () => {
                             <div className="col-md-6 d-flex align-items-center">
                                 <img src={service?.img} className="img-fluid pt-5 rounded" alt="..." />
                             </div>
-                            <div className="col-md-6">
+                            <div className="col-md-6 d-flex align-items-center">
                                 <div className="card-body">
                                     <div>
                                         <h3 className="card-title text-design py-3">{service?.title}</h3>
