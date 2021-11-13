@@ -1,16 +1,16 @@
-# Travel World [Live Site](https://travel-world-c788a.web.app/)
+# Car Dealer [Live Site](https://car-dealer-b52bf.web.app/)
 
 ## About App
- * This Website is based on Travelling User Can book their dream destination and have a safe journey with us.
- * This project is built with Bootstrap, React JS, Node JS, Express, Cors, MongoDB.
- * Implements Firebase google sign in authentication with error handling.
- * Admin can add location easily by submitting add a new location form.
- * Admin can delete update users booking using Manage All Bookings.
- * User can easily book any package and check what he/she bookings.
+ * This website is based on Car Dealing website where user can buy their dream cars and have a good memory with us.
+ * This project is built with Bootstrap, MUi, React JS, Node JS, Express, Cors, MongoDB.
+ * Implements Email/Password Sign in Authentication and Also Firebase google sign in authentication with error handling.
+ * Admin can add car easily by submitting add a new car form.
+ * Admin can delete update users orders using Manage All Orders.
+ * User can easily order any car and they can check what he/she is ordered.
  * Used React Hook Form for form submission and also added react router and private route.
- * Handle page not found with Return To Home Button.
+ * Handle page not found with 404 and has a Return home button.
  * Designed with [ReactBootstrap](https://react-bootstrap.github.io/).
  * Designed with [ReactReveal](https://www.react-reveal.com/).
- * Designed with [Tailwind](https://tailwindcss.com/).
+ * Designed with [Mui](https://mui.com/).
 
 #### Developed by [Hamdan](https://github.com/MrHamdan)
