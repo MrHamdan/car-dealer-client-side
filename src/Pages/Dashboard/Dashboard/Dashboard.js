@@ -30,7 +30,7 @@ import './Dashboard.css'
 import UserRoute from '../../UserRoute/UserRoute';
 import AdminRoute from '../../AdminRoute/AdminRoute';
 
-const drawerWidth = 240;
+const drawerWidth = 245;
 
 function Dashboard(props) {
     const { window } = props;

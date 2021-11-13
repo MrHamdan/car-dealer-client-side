@@ -9,7 +9,7 @@ const AdminRoute = ({ setPath }) => {
 
     return (
         <div>
-            <Link to="/home" ><Button sx={{ backgroundColor: '#212529' }} className="mt-2 mb-2 button-design" variant="contained">Home</Button></Link>
+            <Link to="/home" ><Button sx={{ backgroundColor: '#212529' }} className="mt-2 mb-2 button-design container" variant="contained">Home</Button></Link>
             <ul className="list-group admin-route">
                 <Button sx={{ backgroundColor: '#212529' }} variant="contained" className=" my-2 button-design" onClick={() => setPath("manageallorders")}>
                     Manage All Orders</Button>
@@ -21,7 +21,7 @@ const AdminRoute = ({ setPath }) => {
                 <Button sx={{ backgroundColor: '#212529' }} variant="contained" className=" my-2 button-design" onClick={() => setPath("manageservice")}>
                     Manage Service</Button>
             </ul>
-            <Button sx={{ backgroundColor: '#212529' }} variant="contained" className=" my-2 button-design" onClick={logout}>LogOut</Button>
+            <Button sx={{ backgroundColor: '#212529' }} variant="contained" className=" my-2 button-design container" onClick={logout}>LogOut</Button>
         </div>
     );
 };
