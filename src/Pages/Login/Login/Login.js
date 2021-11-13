@@ -6,6 +6,9 @@ import { Container, Button, CircularProgress, Alert, Grid } from '@mui/material'
 import { NavLink } from 'react-router-dom';
 import { Spinner } from 'react-bootstrap';
 import login from '../../../images/undraw_electric_car_b7hl (2).png'
+import Header from '../../Shared/Header/Header';
+import Footer from '../../Shared/Footer/Footer';
+
 
 const Login = () => {
     const [loginData, setLoginData] = useState({});
@@ -32,6 +35,7 @@ const Login = () => {
 
     return (
         <div>
+            <Header></Header>
             <div>
                 <Container>
                     <Grid container spacing={2}>
@@ -66,7 +70,7 @@ const Login = () => {
                                 {authError && <Alert severity="error">{authError}</Alert>}
                             </form>
                             <p className="text-white">========================</p>
-                            <Button onClick={handleGoogleSignIn} color="error" variant="contained">Google Sign In</Button>
+                            <Button className=" mb-5" onClick={handleGoogleSignIn} color="error" variant="contained">Google Sign In</Button>
                         </Grid>
                         <Grid item xs={12} md={6}>
                             <img style={{ width: '100%' }} className="pt-5" src={login} alt="" />
@@ -74,6 +78,7 @@ const Login = () => {
                     </Grid>
                 </Container>
             </div>
+            <Footer className=" mt-5"></Footer>
         </div>
     );
 };
