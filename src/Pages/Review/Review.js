@@ -6,7 +6,7 @@ const Review = () => {
     const { register, handleSubmit, watch, reset, formState: { errors } } = useForm();
     const { user } = useAuth();
     const onSubmit = data => {
-        const proceed = window.confirm('Do You Want To Add This New Location ?');
+        const proceed = window.confirm('Do You Want To Add Your Review ?');
         if (proceed) {
             fetch("https://hidden-sands-54353.herokuapp.com/addReview", {
                 method: 'POST',
@@ -16,7 +16,7 @@ const Review = () => {
                 .then(res => res.json())
                 .then(res => {
                     if (res.insertedId) {
-                        alert('New Location Has Been Added!');
+                        alert('Your Review Has Been Added!');
                         reset();
                     }
                 })

@@ -5,6 +5,7 @@ import './Login.css'
 import { Container, Button, CircularProgress, Alert, Grid } from '@mui/material';
 import { NavLink } from 'react-router-dom';
 import { Spinner } from 'react-bootstrap';
+import login from '../../../images/undraw_electric_car_b7hl (2).png'
 
 const Login = () => {
     const [loginData, setLoginData] = useState({});
@@ -34,7 +35,7 @@ const Login = () => {
             <div>
                 <Container>
                     <Grid container spacing={2}>
-                        <Grid item sx={{ mt: 8 }} xs={12} md={12}>
+                        <Grid item sx={{ mt: 8 }} xs={12} md={6}>
                             <h1 className="text-design">Please Login</h1>
                             <form onSubmit={handleLoginSubmit} className="form-bg rounded-2xl">
                                 <input
@@ -65,7 +66,10 @@ const Login = () => {
                                 {authError && <Alert severity="error">{authError}</Alert>}
                             </form>
                             <p className="text-white">========================</p>
-                            <Button onClick={handleGoogleSignIn} variant="contained">Google Sign In</Button>
+                            <Button onClick={handleGoogleSignIn} color="error" variant="contained">Google Sign In</Button>
+                        </Grid>
+                        <Grid item xs={12} md={6}>
+                            <img style={{ width: '100%' }} className="pt-5" src={login} alt="" />
                         </Grid>
                     </Grid>
                 </Container>

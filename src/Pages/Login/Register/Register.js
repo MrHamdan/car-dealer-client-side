@@ -4,6 +4,7 @@ import { Grid } from '@mui/material';
 import { NavLink, useHistory } from 'react-router-dom';
 import useAuth from './../../../hooks/useAuth';
 import { Spinner } from 'react-bootstrap';
+import register from '../../../images/undraw_off_road_9oae.png'
 
 const Register = () => {
     const [loginData, setLoginData] = useState({});
@@ -28,7 +29,7 @@ const Register = () => {
     return (
         <Container>
             <Grid container spacing={2}>
-                <Grid item sx={{ mt: 8 }} xs={12} md={12}>
+                <Grid item sx={{ mt: 8 }} xs={12} md={6}>
                     <h1 className="text-design" variant="body1" gutterBottom>Register</h1>
                     {!isLoading && <form onSubmit={handleLoginSubmit} className="form-bg rounded-2xl">
                         <input
@@ -77,6 +78,9 @@ const Register = () => {
                     {isLoading && <Spinner animation="border" variant="danger" />}
                     {user?.email && <Alert severity="success">User Created successfully!</Alert>}
                     {authError && <Alert severity="error">{authError}</Alert>}
+                </Grid>
+                <Grid item xs={12} md={6}>
+                    <img style={{ width: '100%' }} className="pt-5" src={register} alt="" />
                 </Grid>
             </Grid>
         </Container>

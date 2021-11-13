@@ -5,7 +5,7 @@ import './AddANewService.css'
 const AddANewService = () => {
     const { register, handleSubmit, watch, reset, formState: { errors } } = useForm();
     const onSubmit = data => {
-        const proceed = window.confirm('Do You Want To Add This New Location ?');
+        const proceed = window.confirm('Do You Want To Add This New Car ?');
         if (proceed) {
             fetch("https://hidden-sands-54353.herokuapp.com/addService", {
                 method: 'POST',
@@ -15,7 +15,7 @@ const AddANewService = () => {
                 .then(res => res.json())
                 .then(res => {
                     if (res.insertedId) {
-                        alert('New Location Has Been Added!');
+                        alert('New Car Has Been Added!');
                         reset();
                     }
                 })
